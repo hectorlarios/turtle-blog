@@ -1,0 +1,72 @@
+/**
+ *  MAIN NAVIGATION STYLE
+**/
+.posts-nav-control-container
+{		
+/* 	height:25px; */
+	padding:0px;
+    text-align: left; 
+	position:relative;
+	background:#EBF5FF;
+	border-radius: 9px 9px 0px 0px;
+}
+.posts-nav-ul
+{
+	height:20px;
+	margin:0px;
+	padding-top:3px;
+    font-size:12px;  
+    text-align: left; 
+}
+.posts-nav-ul li 
+{	
+    display: inline;    
+    list-style: none;
+/*     color:#36454F; */
+	color: #FFFFFF;   
+}
+.posts-nav-ul li span,.posts-nav-ul li#selected
+{
+/* 	background-color: #ADD6FF; */
+ 	padding-left:10px; 
+ 	padding-right:10px;
+ 	padding-top:2px;
+ 	padding-bottom:3px;
+ 	font-size:10px;
+/* 	color: #5E6A72;    */
+}
+.posts-nav-ul li span:hover
+{
+	background-color: #CCE6FF;
+}
+
+.posts-nav-ul li a 
+{
+    color: #5E6A72;
+}
+.posts-nav-ul li#selected
+{
+	color:#5E6A72;
+	background-color: #EBF5FF;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

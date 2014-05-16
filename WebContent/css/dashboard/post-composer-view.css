@@ -1,0 +1,138 @@
+.blog-composer-container
+{
+	background-color: #7AA3CC;
+	padding-bottom:0px;
+	min-height:260px;
+	border-radius: 0px 0px 4px 4px;
+}
+.blog-composer-form-container
+{	
+	background-color: #FFFFFF;
+	padding:20px;
+	border-radius: 0px 0px 4px 4px;
+}
+.blog-composer-container div#composerDiv
+{
+	height:350px;	
+}
+.blog-composer-form-controls
+{
+	padding:10px;
+}
+.blog-composer-container textarea
+{
+	left:20px;
+	width:628px;
+	height:350px;
+	border:1px #7AA3CC solid;
+	overflow:auto;
+	padding:0px;
+	visibility:hidden;
+	display:none;
+	
+}
+.blog-composer-submit-button
+{
+	color:#384044;
+	background:#ADD6FF;
+	border-radius: 3px 3px 3px 3px;
+/* 	border:1px solid #7AA3CC; */
+/* 	border:1px solid #5E6A72;	 */
+	border:0px;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.blog-composer-submit-button:hover,.blog-composer-container input#_fontSelector:hover
+{
+	background:#CCE6FF;
+}
+.blog-composer-controls
+{
+	border-radius: 5px 5px 0px 0px;
+	background:#7AA3CC url("../../images/blog-entry-composer-view/menu-bar-background.png") repeat-x;
+	padding:0px;
+	width:618px;
+	border:1px #7AA3CC solid;
+	border-bottom-style:none;	
+	padding:5px;	
+}
+.blog-composer-controls img 
+{
+    padding-top:2px;
+    padding-bottom:2px;
+}
+.blog-composer-controls img:hover
+{
+	background-color: #7AA3CC;	
+	border-radius: 2px 2px 2px 2px;
+}
+.blog-input-field-composerTitle
+{
+	width:350px;
+	border:1px solid #7AA3CC;
+}
+.blog-input-field-composerTitle-error
+{
+	width:350px;
+	color:#AF0000;
+	border:1px solid #FF0000;
+	background-color:#FFE6E6;
+}
+.blog-input-label
+{
+	color:#5E6A72;
+	font-size:12px;
+	text-align: left;
+}
+.blog-input-field-composerIFrame
+{
+	left:20px;
+	width:628px;
+	height:350px;
+	border:1px #7AA3CC solid;
+	overflow:auto;
+	padding:0px;
+	visibility:visible;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.blog-input-field-composerIFrame body
+{
+	font-size:12px;
+	font-family:Arial;
+	color:#7D96AF
+}
+
+.blog-input-field-composerIFrame-error
+{
+	left:20px;
+	width:628px;
+	height:350px;
+	border:1px #FF0000 solid;
+	overflow:auto;
+	padding:0px;
+	visibility:visible;
+	background-color:#FFE6E6;
+	border-radius: 0px 0px 4px 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

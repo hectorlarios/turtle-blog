@@ -1,0 +1,44 @@
+.archive-container
+{	
+	left:10px;
+    vertical-align:top;
+    width:270px;
+    background-color: #CCF5FF;
+	border-radius: 5px 5px 5px 5px;  
+/* 	border:1px solid #FF6600;	 */
+}
+.archive-header-container
+{
+    vertical-align:middle;
+    width:260px;
+    height:20px;
+    background-color: #00ccff;
+	border-radius: 5px 5px 0px 0px;
+	padding-left: 10px;
+	padding-top: 5px;  	
+}
+.archive-header-title
+{
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+/* 	color:#FF6600; */
+}
+.archive-list-title
+{
+	font-size:11px;
+	font-weight:bold;
+	color:#4b647d;
+}
+.archive-list-item-link,.archive-list-item-selected
+{
+	font-size:10px;
+	color:#00CCFF;
+	font-weight:bold;
+	text-decoration:none
+}
+.archive-list-item-selected
+{
+	color:#FF6600;
+}
+.archive-list-title,.__link{text-decoration:none;}

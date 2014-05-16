@@ -1,0 +1,44 @@
+body
+{  	
+	background:#008FB2 url("../../../images/themes/default/bg.jpg") repeat-x fixed;
+/* 	background:#008FB2; */
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Sans-Serif, Courier New;
+}
+
+.main-container
+{
+	width:950px;
+	height:100%;
+    vertical-align:top;
+}
+.main-container-bg
+{
+/* 	background:url("../../../images/themes/orange/main-container-bg.png");*/	
+	background: #FFFFFF;		
+}
+.page-title-container
+{
+	padding:20px;
+}
+.page-title
+{
+	text-align:left;
+	font-size:32px;
+	color:#00CCFF;	
+	font-weight: bolder;
+	vertical-align: middle;
+}
+.page-description-container
+{
+	padding:20px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.page-description
+{
+	text-align:left;
+	font-size:14px;
+	color:#7D96AF;	
+}

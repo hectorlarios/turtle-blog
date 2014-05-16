@@ -1,0 +1,78 @@
+body 
+{
+	background:#7AA3CC url("../../images/dashboard/bg.jpg") repeat-x fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Sans-Serif, Courier New;
+}
+
+.main-container
+{
+	width:950px;
+	height:100%;
+    vertical-align:top;
+    background-color: #ffffff;
+}
+.page-title-container
+{
+	padding:20px;
+}
+.page-title
+{
+	text-align:left;
+	font-size:32px;
+	color:#5E6A72;	
+	font-weight: bolder;
+	vertical-align: middle;
+}
+.page-description-container
+{
+	padding:20px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.page-description
+{
+	text-align:left;
+	font-size:14px;
+	color:#7D96AF;	
+}
+/*DASHBOARD CONTAINER*/
+.page-dashboard-container
+{	
+/* 	width:100%; */
+    vertical-align:top;
+    background-color: #7AA3CC;
+	border-radius: 10px 10px 5px 5px;
+	padding:2px;	
+/* 	border:1px #738296 solid; */
+}
+.page-dashboard-header
+{
+/* 	width:100%; */
+	min-height:47px;
+    padding-bottom:1px;
+	border-radius: 9px 9px 4px 4px;
+	text-align: left;    	
+}
+.page-dashboard-footer
+{
+/* 	width:100%; */
+	border-radius: 9px 9px 4px 4px;
+	padding:10px;
+}
+.page-dashboard-body
+{
+	min-height:300px;
+    vertical-align:top;
+    background-color: #FFFFFF;
+	border-radius: 9px 9px 4px 4px;
+	text-align: left;
+}
+
+
+
+
+
+
+

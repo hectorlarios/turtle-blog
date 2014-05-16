@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name>Blog</display-name>
+  <listener>
+  	<listener-class>com.csc.web.listeners.ConnDataListener</listener-class>
+  </listener>
+  <!--
+    BEGIN - POST SERVICES
+  -->
+  <servlet>
+    <description>
+    </description>
+    <display-name>CreatePostController</display-name>
+    <servlet-name>CreatePostController</servlet-name>
+    <servlet-class>com.csc.web.services.post.CreatePostController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreatePostController</servlet-name>
+    <url-pattern>/services/blog/post/create</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>
+    </description>
+    <display-name>UpdatePostController</display-name>
+    <servlet-name>UpdatePostController</servlet-name>
+    <servlet-class>com.csc.web.services.post.UpdatePostController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePostController</servlet-name>
+    <url-pattern>/services/blog/post/update</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>
+    </description>
+    <display-name>DeletePostController</display-name>
+    <servlet-name>DeletePostController</servlet-name>
+    <servlet-class>com.csc.web.services.post.DeletePostController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletePostController</servlet-name>
+    <url-pattern>/services/blog/post/delete</url-pattern>
+  </servlet-mapping>
+  <!--
+    END - POST SERVICES
+  -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <security-constraint>
+    <display-name>Dashboard</display-name>
+    <web-resource-collection>
+      <web-resource-name>Dashboard</web-resource-name>
+      <description>coarse grained approach</description>
+      <url-pattern>/dashboard/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <description/>
+      <role-name>dashboard</role-name>
+    </auth-constraint>
+  </security-constraint>
+  
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>TurtleBLOG Dashboard</realm-name>
+  </login-config>
+  
+  <security-role>
+    <description>generic user of application</description>
+    <role-name>dashboard</role-name>
+  </security-role>
+</web-app>

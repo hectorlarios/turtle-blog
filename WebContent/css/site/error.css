@@ -1,0 +1,23 @@
+.error-404-title-container
+{
+	padding:20px;
+}
+.error-404-title
+{
+	text-align:left;
+	font-size:32px;
+	color:#00CCFF;	
+	font-weight: bolder;
+}
+.error-404-description-container
+{
+	padding:20px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.error-404-description
+{
+	text-align:left;
+	font-size:14px;
+	color:#7D96AF;	
+}

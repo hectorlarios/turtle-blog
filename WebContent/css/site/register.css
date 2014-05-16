@@ -1,0 +1,104 @@
+.register-container
+{	
+	left:20px;
+	width:400px;
+	position:relative;	
+    vertical-align:top;
+    background-color: #e6faff;
+	border-radius: 0px 0px 5px 5px;  
+	border:1px solid #5E6A72;
+/* 	border:1px solid #00CCFF;	 */
+	padding:19px;
+	padding-top:30px;
+}
+.register-header-container
+{
+	left:20px;
+	position:relative;		
+    vertical-align:middle;
+    text-align:left;
+    width:400px;
+    height:20px;
+    background-color:#5E6A72;
+/*     background-color: #00CCFF; */
+	border-radius: 5px 5px 0px 0px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 5px;
+	
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.register-table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.register-list-title
+{
+	font-size:11px;
+	font-weight:bold;
+	color:#4b647d;
+}
+.register-input-field
+{
+	width:350px;
+	border:1px solid #5E6A72;
+}
+.register-input-field:disabled
+{
+	border:1px solid #AFAFAF;
+	background-color:#EFEFEF;
+}
+.register-input-field-error
+{
+	width:350px;
+	color:#AF0000;
+	border:1px solid #FF0000;
+	background-color:#FFE6E6;
+}
+.register-input-label
+{
+	color:#5E6A72;
+	font-size:12px;
+	text-align: left;
+}
+.register-table-td
+{
+	height:40px;
+	vertical-align: top;
+}
+.register-box-title
+{
+	font-size:16px;
+	font-weight:bolder;
+	color:#00CCFF;	
+	height:50px;
+	vertical-align: top;	
+}
+.register-submit-button
+{
+	color:#FFFFFF;
+	background:#727D84;
+	border-radius: 3px 3px 3px 3px;
+	border:1px solid #5E6A72;	
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.register-submit-button:hover
+{
+	background:#DEDEDE;
+}
+.register-submit-button:disabled
+{
+	background:#AFB5B9;
+}
+.register-site-logo-icon-64
+{
+	border:0px;
+	width:64px;
+	height:64px;
+	vertical-align:middle;
+}
